@@ -6,8 +6,8 @@ import classNames from 'classnames/bind';
 
 import * as searchServices from '~/services/searchService';
 import styles from './Search.module.scss';
-import { Wraper as PopperWrapper } from '~/components/Popper';
-import AccountItem from '../AccountItem';
+import { Wrapper as PopperWrapper } from '~/components/Popper';
+import AccountItem from '../../../components/AccountItem';
 import { SearchIcon } from '~/components/Icons';
 import { useDebounce } from '~/hooks';
 
