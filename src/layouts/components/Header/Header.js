@@ -116,7 +116,9 @@ function Header() {
           ) : (
             <>
               <Button text>Upload</Button>
-              <Button primary>Log In</Button>
+              <Button primary to="/">
+                Log In
+              </Button>
             </>
           )}
           <Menu items={currentUser ? userMenu : MENU_ITEMS} onChange={handleMenuChange}>
